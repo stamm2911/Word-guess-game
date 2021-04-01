@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./reset.css" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Word Guess Game</h1>
+      <button id="start-button" data-status="off">Start</button>
+    </header>
+
+    <main>
+      <section id="secret-word">
+        <p>Ready?</p>
+      </section>
+      <aside>
+        <div id="columns">
+          <div id="column1">
+            <h3 id="wins">Wins:<span>0</span></h3>
+            <h3 id="losses">Losses:<span>0</span></h3>
+          </div>
+          <button id="reset-button">Reset score</button>
+        </div>
+        <article>
+          <h2 id="seconds-left">0</h2>
+          <h3>seconds remaining</h3>
+        </article>
+      </aside>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
