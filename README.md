@@ -28,3 +28,7 @@ This project is a Word Guess game. It was built using JavaScript and Web APIs.
 
 * When a user refreshes or returns to the brower page, the win and loss counts should persist.
 
+### Specifications
+
+Deployed application: https://stamm2911.github.io/word-guess-game/
+
