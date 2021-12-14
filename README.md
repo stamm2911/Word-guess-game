@@ -30,5 +30,5 @@ This project is a Word Guess game. It was built using JavaScript and Web APIs.
 
 ### Specifications
 
-Deployed application: https://stamm2911.github.io/word-guess-game/
+Deployed application: https://stamm2911.github.io/Word-guess-game/
 
